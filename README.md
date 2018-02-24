@@ -40,7 +40,7 @@ There are [linting/formatting tools](#lint) to help write correct & pretty code,
 ### <a id="build"></a>Build Pipeline
 
 * **Webpack** and **Babel** _transpile source code down to ES5_, removing language extensions and converting post-ES5 syntax to ES5.
-* **Babel**'s polyfill enables post-ES5 APIs.
+* **Babel**'s polyfill enables _post-ES5 APIs_.
 * **Webpack** _bundles code_ that's organized in separate modules into a single file.
 * **Webpack** takes all the files required for the app (code, style, images, etc.) and puts them into a _`dist/` folder for distribution_.
 
